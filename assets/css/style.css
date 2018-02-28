@@ -198,48 +198,40 @@ button {
     font-size: 15px;
     padding: 10px 20px;
 }
-/*
-@media screen and (max-width: 768px) and (min-width: 520px)  {
-  
-header {
-       width: 50%;
-   }
- 
-    body {
-      width: 50%;
-    }
-  
-    footer {
-      width: 50%;
-    }
-    section{
-    width: 50%; 
-    }
-    aside{
-        width: 50%
-    }
-    h1{
-        width:50%
-    }
-  }
-*/
+
 
   @media screen and (max-width: 979px) {
     /* 980px */
     body {
-        width: 639px;
+        width: 979px;
+        margin: 1%;
+        padding:3%
     }   
+    .mypic{
+        width:20%;
+        height: 20%;
+    }
+    h1{
+        width:7%;
+    }
+    h2{
+        width:7%;
+    }
     header {
         width: 979px;
     }
     section{
-        width: 600px;
+        width: 50%;
+    }
+    p{
+        width: 50%;
+        height:70%;
     }
     aside {
-        width: 600px;
+        width: 20%;
       }
     footer {
-        width: 979px;
+        width: 100%;
     }
   }
 
@@ -247,19 +239,35 @@ header {
   @media screen and (max-width: 767px) {
     /* 768 px */
     body {
-        width: 639px;
+        width: 767px;
+        margin: 1%;
+        padding:3%
     } 
+    .mypic{
+        width:20%;
+        height: 20%;
+    }
+    h1{
+        width:7%;
+    }
+    h2{
+        width:7%;
+    }
     header {
         width: 767px;
     }
     section{
-        width: 600px;
+        width: 50%;
+    }
+    p{
+        width: 50%;
+        height:70%;
     }
     aside {
-        width: 600px;
+        width: 20%;
       }
     footer {
-        width: 767px;
+        width: 100%;
     }
   }
 
@@ -267,17 +275,33 @@ header {
     /* 640 px */
     body {
         width: 639px;
+        margin: 1%;
+        padding:3%
     } 
+    .mypic{
+        width:20%;
+        height: 20%;
+    }
+    h1{
+        width:7%;
+    }
+    h2{
+        width:7%;
+    }
     header {
         width: 639px;
     }
     section{
-        width: 600px;
+        width: 50%;
+    }
+    p{
+        width: 50%;
+        height:70%;
     }
     aside {
-        width: 600px;
+        width: 20%;
       }
     footer {
-        width: 639px;
+        width: 100%;
     }
   }
